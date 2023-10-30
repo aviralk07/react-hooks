@@ -1,0 +1,30 @@
+/* MyComponent.css */
+.container {
+    
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        min-height: 100vh; 
+}
+
+.icon-add,
+.icon-minus {
+  background-color: #007bff; /* Change this to your preferred background color */
+  color: #fff; /* Change this to your preferred text color */
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.icon-add:hover,
+.icon-minus:hover {
+  background-color: #0056b3; /* Change this to the hover color you prefer */
+}
+
+h1 {
+  font-size: 44px;
+  margin: 0 10px;
+}

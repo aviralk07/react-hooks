@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// import MyComponent from "./components/useState/useState.jsx";
+// import UseEffect from "./components/useEffect/useEffect";
+// import ClearUp from "./components/useEffect/clearUp.jsx";
+import UseContext from "./components/useContext/useContext";
+// import UseStateObject from "./components/useState/useStateObject.jsx";
+// import TrafficLight from "./components/useState/Traffic";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MyComponent /> */}
+      {/* <UseStateObject /> */}
+      {/* <TrafficLight /> */}
+      {/* <UseEffect /> */}
+      {/* <ClearUp /> */}
+      <UseContext />
     </div>
   );
 }
